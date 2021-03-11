@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("https://media.istockphoto.com/photos/colorful-ice-cream-scoops-background-picture-id920706624?k=6&m=920706624&s=612x612&w=0&h=V2QqWi-yOHEaWXpQR2kPFCKELKodCKG9-qObRgjKfbk=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wrap {
+  border: 12px solid transparent;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
+  margin: 136px 100px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 50px;
+  width: 1300px;
+}
+
+.sub-title {
+  text-align: center;
+  color:  #2c90fc ;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: underline dashed  #fd1892;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0 0 10px;
+}
+
+.menu-list li {
+  float: left;
+}
+
+.menu-list li a {
+  display: block;
+  padding: 66px;
+  margin: 15px;
+  text-decoration: none;
+  font-family: "Comic Neue", cursive;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(29, 212, 29);
+}
+
+.menu-list li a:hover {
+  color: red;
+}
+
+/* .menu-item {
+  padding: 0 0 10px;
+  position: relative;
+} */
+
+#contains1,
+#contains2,
+#contains3 {
+  clear: left;
+}

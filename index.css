@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("https://media.istockphoto.com/photos/colorful-ice-cream-scoops-background-picture-id920706624?k=6&m=920706624&s=612x612&w=0&h=V2QqWi-yOHEaWXpQR2kPFCKELKodCKG9-qObRgjKfbk=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.curveText {
+  text-align: center;
+  padding-top: 250px;
+  font-size: 50px;
+  /* color: green; */
+  font-family: "Lemonada", cursive;
+}
+#container2 {
+  background-color: #f5f5f56b;
+  margin: 161px auto;
+  padding: 57px 18px;
+  width: 1346px;
+}
+span {
+  display: inline-block;
+}
+
+.W {
+  transform: translate(22px, 95px) rotate(-60deg);
+  color:#febe24;
+}
+
+.E1 {
+  transform: translate(-2px, 47px) rotate(-55deg);
+  color:#86d62c;
+}
+
+.L1 {
+  transform: translate(-19px, 8px) rotate(-50deg);
+  color:#fe578a;
+}
+
+.C1 {
+  transform: translate(-33px, -28px) rotate(-45deg);
+  color: #62af0a;
+}
+
+.O1 {
+  transform: translate(-42px, -64px) rotate(-40deg);
+  color:#ffd405;
+}
+
+.M1 {
+  transform: translate(-52px, -102px) rotate(-35deg);
+  color: #21a3ff;
+}
+
+.E2 {
+  transform: translate(-57px, -133px) rotate(-30deg);
+  color: #febe24;
+}
+
+.T1 {
+  transform: translate(-34px, -168px) rotate(-25deg);
+  color:#86d62c
+}
+
+.O2 {
+  transform: translate(-40px, -187px) rotate(-20deg);
+  color:#fe578a
+}
+
+.I1 {
+  transform: translate(-18px, -209px) rotate(-15deg);
+  color:#62af0a
+}
+
+.C2 {
+  transform: translate(-15px, -221px) rotate(-10deg);
+  color:#ffd405
+}
+
+.E3 {
+  transform: translate(-14px, -230px) rotate(-5deg);
+  color:#21a3ff
+}
+
+.S1 {
+  transform: translate(16px, -228px) rotate(0deg);
+  color:#febe24
+}
+
+.clipart {
+  height: 100px;
+  width: 77px;
+  display: inline-block;
+  position: absolute;
+  top: -86px;
+  left: -35px;
+}
+
+.C3 {
+  transform: translate(52px, -227px) rotate(5deg);
+  color:#86d62c
+}
+
+.R1 {
+  transform: translate(59px, -218px) rotate(10deg);
+  color:#fe578a
+}
+
+.E4 {
+  transform: translate(60px, -204px) rotate(15deg);
+  color:#62af0a
+}
+
+.A1 {
+  transform: translate(61px, -186px) rotate(20deg);
+  color:#ffd405
+}
+
+.M2 {
+  transform: translate(63px, -158px) rotate(27deg);
+  color:#21a3ff
+}
+
+.C4 {
+  transform: translate(80px, -108px) rotate(30deg);
+  color:#febe24
+}
+
+.O3 {
+  transform: translate(74px, -72px) rotate(35deg);
+  color:#86d62c
+}
+
+.R2 {
+  transform: translate(63px, -37px) rotate(40deg);
+  color:#fe578a
+}
+
+.N1 {
+  transform: translate(50px, 3px) rotate(45deg);
+  color:#62af0a
+}
+
+.E5 {
+  transform: translate(39px, 47px) rotate(50deg);
+  color:#ffd405
+}
+
+.R3 {
+  transform: translate(26px, 91px) rotate(55deg);
+  color:#21a3ff
+}
+
+.gif {
+  width: 498px;
+  height: 351.09px;
+  max-width: 522px;
+  background-color: unset;
+  margin: -47px 418px;
+  position: relative;
+  top: -63px;
+}

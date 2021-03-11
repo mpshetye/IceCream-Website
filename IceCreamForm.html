@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <link rel="stylesheet" href="Navigation.css">
+    <link rel="stylesheet" href="IceCreamForm.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html">
+                <img src="logo.JPG" alt="ice-cream corner logo">
+            </a>
+            <div class="container1" id="conatiner1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="IceCreamForm.html" target="_blank">Contact Us</a></li>
+                    <li><a href="IceCreamHistory.html" target="_blank">Ice-Creams</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <div class="searchText">
+                    <input type="text" name="searchBar" id="searchBar" placeholder="Search this website">
+                </div>
+                <div class="searchBtn">
+                    <input type="image" src="searchicon.JPG" alt="Submit" style="width: 40px;" id="searchButton" >
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="containers">
+        <div class="containers1">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="containers2">
+            <form action="/backend.php"></form>
+            <div class="classForms">
+                <label for="name">Name:</label>
+                <input type="text" name="forName" id="name">
+            </div>
+            <br>
+            <div class="classForms">
+                <label for="quesFee">What would you like?</label>
+                <br>
+                <input type="radio" name="query" id="quesFee">Query
+                <input type="radio" name="feedback" id="quesFee">Feedback
+                <br>
+                <textarea name="request" id="about" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <br>
+            <div class="classForms">
+                <label for="address">Address:</label>
+                <br>
+                <textarea name="forAdds" id="address" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div class="classForms">
+                <label for="contact">Contact No.:</label>
+                <input type="tel" name="contactNum" id="contact">
+            </div>
+            <br>
+            <div class="classForms">
+                <label for="emailID">email:</label>
+                <input type="email" name="emailAdd" id="emailID">
+            </div>
+            <br>
+            <br>
+            <div class="classForms">
+                <label for="appt">What is a good time to contact?</label>
+                <input type="time" id="appt" name="apptTime">
+            </div>
+            <br>
+            <div class="classForms">
+                <label for="formEmail">Would you like a copy of this form?</label>
+                <input type="checkbox" name="EmailForm" id="formEmail">
+            </div>
+            <br>
+            <div class="buttonClass">
+                <input type="submit" value="SUBMIT">
+                <input class="resetBtn" type="reset" value="RESET">
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

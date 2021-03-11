@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url("https://media.istockphoto.com/photos/colorful-ice-cream-scoops-background-picture-id920706624?k=6&m=920706624&s=612x612&w=0&h=V2QqWi-yOHEaWXpQR2kPFCKELKodCKG9-qObRgjKfbk=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h2 {
+  font-family: "Fredoka One", cursive;
+  /* text-align: justify; */
+  margin: 13px auto;
+}
+p {
+  font-family: "Sacramento", cursive;
+  font-size: 30px;
+  line-height: 2em;
+}
+.containerrs{
+    background-color: #f5f5f56b;
+    margin:100px 300px;
+    padding: 20px 35px;
+}
+
+.containerrs li{
+    font-family: "Sacramento", cursive;
+    font-size: 30px;
+}
+
+#img {  
+    float: right;   
+    height:190px;
+    width:190px;
+    margin-top: 25px;
+    margin-left:15px;
+    }
+/* .container2{
+    clear:right;
+} */

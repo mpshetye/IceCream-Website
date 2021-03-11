@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("https://media.istockphoto.com/photos/colorful-ice-cream-scoops-background-picture-id920706624?k=6&m=920706624&s=612x612&w=0&h=V2QqWi-yOHEaWXpQR2kPFCKELKodCKG9-qObRgjKfbk=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wrap {
+  border: 3px solid transparent;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
+  margin: 136px 100px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 50px;
+  width: 1300px;
+}
+
+.product {
+  display: block;
+   float: left;  /*cannot have display as inline-block with float unless float is none. display needs to be block with float */
+}
+
+.product-detail-container {
+  display: block;
+}
+
+.product-details{
+  font-size: 40px;
+  font-family: "Ubuntu", sans-serif;
+  color:#fd1892
+}
+
+.available{
+font-size: 19px;
+font-family: "Ubuntu", sans-serif;
+margin-top: 15px;
+color: #2c90fc ;
+}
+
+.available-list {
+  list-style: none;
+  padding: 8px;
+  margin:8px 0 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  color:#ffb307
+}
+
+.available-list li:before{
+  content:'\1F367'
+}
+
+.product-desc{
+    font-family: 'Dancing Script', cursive;
+    font-size:16px ;
+    color:#84c408
+}
+
+.menu-detail-disclaimer:before {
+    content: ' \002A';
+  }
+
+.menu-detail-disclaimer {
+  position: relative;
+  font-weight: bold;
+  top: 125px;
+  font-family: 'Bubblegum Sans', cursive;
+}
+

@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar img {
+  display: inline-block;
+  margin-left: -17px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 90px;
+}
+.container1 {
+  float: left;
+  padding: 13px 68px;
+}
+.navbar {
+  background-color: black;
+  /* border-radius: 50px; */
+}
+
+.navbar ul {
+  overflow: auto;
+  list-style: none;
+  position: absolute;
+  left: 236px;
+  top: 20px;
+}
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: inline-block;
+  padding: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #59b859;
+}
+
+.navbar li a:hover {
+  color: red;
+}
+
+.navbar li a:visited {
+  color: rgb(255, 0, 140);
+}
+.navbar li a:active {
+  color: darkblue;
+}
+.navbar li a:link {
+  color: #59b859 !important;
+}
+.search {
+  float: right;
+  padding: 39px 150px;
+}
+
+.searchText {
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 3px 30px;
+  width: 200px;
+}
+
+.searchBtn {
+  position: absolute;
+  right: 78px;
+  top: 15px;
+}
